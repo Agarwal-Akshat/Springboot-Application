@@ -2,6 +2,7 @@ package bankingdb.controllers;
 
 import bankingdb.db.service;
 import bankingdb.db.Customer;
+import bankingdb.errorhandle.customerNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -27,6 +28,7 @@ public class Controller {
     List<Customer> findbyname(@PathVariable String name){
         return db.findByName(name);
     }
+
     @GetMapping("/findById/{id}")
     Customer findbyid(@PathVariable long id){
         return db.findById(id);
@@ -43,7 +45,8 @@ public class Controller {
         Boolean stat=db.update(id,cust);
         if (stat) //means true
             return "Record Updated";
-        return "Customer with this id does not exists";
+        else
+            throw new customerNotFoundException("Could not find customer{id:"+id+"} so record not updated");
     }
 
     @DeleteMapping("/delete/{id}")
@@ -51,6 +54,7 @@ public class Controller {
         Boolean stat=db.delete(id);
         if (stat) //means true
             return "Record Deleted";
-        return "Customer with this id does not exists";
+        else
+            throw new customerNotFoundException("Could not find customer{id:"+id+"} so record not deleted");
     }
 }

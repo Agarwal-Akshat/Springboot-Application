@@ -16,12 +16,15 @@ public class service {
     public Iterable<Customer> findAll(){
         return repo.findAll();
     }
+
     public List<Customer> findByName(String name){
         return repo.findByFirstname(name);
     }
+
     public Customer findById(long id){
         return repo.findById(id).get();
     }
+
     public Boolean update(long id,Customer emp){
         if (repo.existsById(id)) {
             repo.save(emp);
