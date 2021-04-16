@@ -26,6 +26,9 @@ public class TranService {
         //making a new trasaction request of the amount and account id
         Transact t=new Transact(accid,0L,amount,false);
         //changing the balance of customer after transaction
+        if(cust.getBalance()<amount){
+            return null;
+        }
         cust.setBalance(cust.getBalance()-amount);
         //update that customers new balance
         serve.update(accid,cust);
