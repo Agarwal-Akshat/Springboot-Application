@@ -1,6 +1,8 @@
 package bankingdb.controllers;
 
+import bankingdb.db.Transact;
 import bankingdb.db.service;
+import bankingdb.db.TranService;
 import bankingdb.db.Customer;
 import bankingdb.errorhandle.customerNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,11 +15,14 @@ import java.util.List;
 public class Controller {
     @Autowired
     service db;
+    //@Autowired
+    //TranService db2;
 
     @GetMapping("/")
     public String home(){
         return "hello working fine";
     }
+
     @ResponseStatus(HttpStatus.OK)
     @GetMapping("/findAll")
     @ResponseBody  Iterable<Customer> findall(){
@@ -57,4 +62,30 @@ public class Controller {
         else
             throw new customerNotFoundException("Could not find customer{id:"+id+"} so record not deleted");
     }
+/*
+    @GetMapping("/debit/{id}")
+    Transact debit(@PathVariable long id, @RequestBody int amount){
+        return db2.debit(id,amount);
+    }
+
+    @GetMapping("/credit/{id}")
+    Transact credit(@PathVariable long id, @RequestBody int amount){
+        return db2.credit(id,amount);
+    }
+
+    @GetMapping("/transfer/{id1}{id2}")
+    List<Transact> transfer(@PathVariable long id1,@PathVariable long id2, @RequestBody int amount){
+        return db2.transfer(id1,id2,amount);
+    }
+
+    @GetMapping("/allTransactions")
+    @ResponseBody  Iterable<Transact> findalltrans(){
+        return db2.findAllTransaction();
+    }
+
+    @GetMapping("/allTransactionsById/{id}")
+     List<Transact> transactionById(@PathVariable long id){
+        return db2.findAllTransactonById(id);
+    }*/
+
 }

@@ -25,9 +25,9 @@ public class service {
         return repo.findById(id).get();
     }
 
-    public Boolean update(long id,Customer emp){
+    public Boolean update(long id,Customer cust){
         if (repo.existsById(id)) {
-            repo.save(emp);
+            repo.save(cust);
             return true;
         }
         else
