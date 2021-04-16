@@ -21,10 +21,15 @@ public class TranService {
     }
 
     public Transact debit(long accid,int amount){
+        //find that customer with account id
         Customer cust=serve.findById(accid);
+        //making a new trasaction request of the amount and account id
         Transact t=new Transact(accid,0L,amount,false);
+        //changing the balance of customer after transaction
         cust.setBalance(cust.getBalance()-amount);
+        //update that customers new balance
         serve.update(accid,cust);
+        //save the transaction which has been completed
         repo2.save(t);
         return t;
     }
@@ -40,6 +45,7 @@ public class TranService {
 
     public List<Transact> transfer(long id1,long id2,int amount){
         List<Transact> t=new ArrayList<Transact>();
+        //for transfer between customers, debit transaction from 1st customer and credit for 2nd for the same amount
         t.add(debit(id1,amount));
         t.add(credit(id2,amount));
         return t;
