@@ -80,6 +80,20 @@ public class controllersTest extends AbstractMapping {
         String content = mvcResult.getResponse().getContentAsString();
         assertTrue(content.contains("Could not find customer"));
     }
+    @Test
+    public void updateTest2() throws Exception {
+        String uri = "/update/3";
+        Customer e1=new Customer(3,"BB","Cobra",900999);
+        String inputJson = super.mapToJson(e1);
+        MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.put(uri)
+                .contentType(MediaType.APPLICATION_JSON_VALUE)
+                .content(inputJson)).andReturn();
+
+        int status = mvcResult.getResponse().getStatus();
+        assertEquals(200, status);
+        String content = mvcResult.getResponse().getContentAsString();
+        assertEquals(content, "Record Updated");
+    }
 
 
 }
