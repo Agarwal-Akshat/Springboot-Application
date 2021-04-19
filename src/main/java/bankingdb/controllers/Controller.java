@@ -5,6 +5,8 @@ import bankingdb.db.service;
 import bankingdb.db.TranService;
 import bankingdb.db.Customer;
 import bankingdb.errorhandle.customerNotFoundException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -18,11 +20,18 @@ public class Controller {
     //@Autowired
     //TranService db2;
 
-    @GetMapping("/")
-    public String home(){
-        return "hello working fine";
-    }
+    Logger logger = LoggerFactory.getLogger(Controller.class);
 
+    @RequestMapping("/")
+    public String index() {
+        logger.trace("A TRACE Message");
+        logger.debug("A DEBUG Message");
+        logger.info("An INFO Message");
+        logger.warn("A WARN Message");
+        logger.error("An ERROR Message");
+
+        return "Check the Logs to see the output";
+    }
     @ResponseStatus(HttpStatus.OK)
     @GetMapping("/findAll")
     @ResponseBody  Iterable<Customer> findall(){
