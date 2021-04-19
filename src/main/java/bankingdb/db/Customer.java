@@ -12,15 +12,15 @@ public class Customer {
     private @Id long id;
     private @Column String firstname;
     private @Column String secondname;
-    private @Column int balance;
+    private @Column double balance;
 
     public Customer(){}
 
-    public Customer(long id, String firstname, String secondname, int balance){
+    public Customer(long id, String firstname, String secondname, double balance){
         this.id=id;
         this.firstname=firstname;
         this.secondname=secondname;
-        this.balance=balance;
+        this.setBalance(balance);
 
     }
 
@@ -48,11 +48,11 @@ public class Customer {
         this.secondname = secondname;
     }
 
-    public int getBalance() {
+    public double getBalance() {
         return balance;
     }
 
-    public void setBalance(int balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 
@@ -62,7 +62,7 @@ public class Customer {
                 "id=" + id +
                 ", firstname='" + firstname +
                 ", secondname=" + secondname +
-                ", balance=" + balance+'}';
+                ", balance=" + getBalance() +'}';
     }
 
 }

@@ -14,23 +14,17 @@ public class Controller2 {
     TranService db2;
 
     @GetMapping("/debit/{accid}")
-    Transact debit(@PathVariable long accid,@RequestBody int amount){
-        if(db2.debit(accid,amount)==null){
-            throw new accountFundsExceededException("the amount: "+amount+" exceeds the funds present in this account");
-        }
+    Transact debit(@PathVariable long accid,@RequestBody double amount) throws accountFundsExceededException{
         return db2.debit(accid,amount);
     }
 
     @GetMapping("/credit/{id}")
-    Transact credit(@PathVariable long id, @RequestBody int amount){
+    Transact credit(@PathVariable long id, @RequestBody double amount){
         return db2.credit(id,amount);
     }
 
     @GetMapping("/transfer/{id1}/{id2}")
-    List<Transact> transfer(@PathVariable("id1") long id1, @PathVariable("id2") long id2, @RequestBody int amount){
-        if(db2.debit(id1,amount)==null){
-            throw new accountFundsExceededException("the amount: "+amount+" exceeds the funds present in this account");
-        }
+    List<Transact> transfer(@PathVariable("id1") long id1, @PathVariable("id2") long id2, @RequestBody double amount) throws accountFundsExceededException{
         return db2.transfer(id1,id2,amount);
     }
 

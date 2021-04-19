@@ -7,12 +7,12 @@ import javax.persistence.*;
 public class Transact {
     private @Id @GeneratedValue long tranid;
     private @Column long accid;
-    private @Column int transferbalance;
+    private @Column double transferbalance;
     private @Column boolean inout;
 
     public Transact(){}
 
-    public Transact(long accid,long tranId,int transferBalance,boolean InOut) {
+    public Transact(long accid,long tranId,double transferBalance,boolean InOut) {
         this.setAccid(accid);
         this.setTranId(tranId);
         this.setTransferBalance(transferBalance);
@@ -36,11 +36,11 @@ public class Transact {
         this.accid = accid;
     }
 
-    public int getTransferBalance() {
+    public double getTransferBalance() {
         return transferbalance;
     }
 
-    public void setTransferBalance(int transferbalance) {
+    public void setTransferBalance(double transferbalance) {
         this.transferbalance = transferbalance;
     }
 

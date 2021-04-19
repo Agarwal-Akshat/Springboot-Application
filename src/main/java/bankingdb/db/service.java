@@ -1,7 +1,10 @@
 package bankingdb.db;
 
+import bankingdb.errorhandle.customerNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import bankingdb.errorhandle.customerNotFoundException;
+
 
 import java.util.List;
 
@@ -10,8 +13,9 @@ public class service {
     @Autowired
     bankRepo repo;
 
-    public void insert(Customer cust){
+    public String insert(Customer cust){
         repo.save(cust);
+        return "Inserted";
     }
     public Iterable<Customer> findAll(){
         return repo.findAll();
@@ -25,21 +29,23 @@ public class service {
         return repo.findById(id).get();
     }
 
-    public Boolean update(long id,Customer cust){
-        if (repo.existsById(id)) {
-            repo.save(cust);
-            return true;
-        }
-        else
-            return false;
-    }
-    public Boolean delete(long id){
+    public String update(long id,Customer cust) throws customerNotFoundException{
         if (repo.existsById(id)) {
             repo.deleteById(id);
-            return true;
+            repo.save(cust);
+            return "Record Updated";
         }
         else
-            return false;
+            throw new customerNotFoundException("Could not find customer{id:"+id+"} so record not updated");
+    }
+
+    public String delete(long id) throws customerNotFoundException{
+        if (repo.existsById(id)) {
+            repo.deleteById(id);
+            return "Record Deleted";
+        }
+        else
+            throw new customerNotFoundException("Could not find customer{id:"+id+"} so record not deleted");
     }
 
 }

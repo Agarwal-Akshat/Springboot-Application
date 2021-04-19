@@ -41,51 +41,18 @@ public class Controller {
 
     @PostMapping("/insert")
     String insert(@RequestBody Customer cust){
-        db.insert(cust);
-        return "Inserted";
+        return db.insert(cust);
     }
 
     @PutMapping("/update/{id}")
-    String update(@PathVariable long id, @RequestBody Customer cust){
-        Boolean stat=db.update(id,cust);
-        if (stat) //means true
-            return "Record Updated";
-        else
-            throw new customerNotFoundException("Could not find customer{id:"+id+"} so record not updated");
+    String update(@PathVariable long id, @RequestBody Customer cust) throws customerNotFoundException{
+        return db.update(id,cust);
     }
 
     @DeleteMapping("/delete/{id}")
-    String delete(@PathVariable long id){
-        Boolean stat=db.delete(id);
-        if (stat) //means true
-            return "Record Deleted";
-        else
-            throw new customerNotFoundException("Could not find customer{id:"+id+"} so record not deleted");
-    }
-/*
-    @GetMapping("/debit/{id}")
-    Transact debit(@PathVariable long id, @RequestBody int amount){
-        return db2.debit(id,amount);
+    String delete(@PathVariable long id) throws customerNotFoundException{
+        return db.delete(id);
     }
 
-    @GetMapping("/credit/{id}")
-    Transact credit(@PathVariable long id, @RequestBody int amount){
-        return db2.credit(id,amount);
-    }
-
-    @GetMapping("/transfer/{id1}{id2}")
-    List<Transact> transfer(@PathVariable long id1,@PathVariable long id2, @RequestBody int amount){
-        return db2.transfer(id1,id2,amount);
-    }
-
-    @GetMapping("/allTransactions")
-    @ResponseBody  Iterable<Transact> findalltrans(){
-        return db2.findAllTransaction();
-    }
-
-    @GetMapping("/allTransactionsById/{id}")
-     List<Transact> transactionById(@PathVariable long id){
-        return db2.findAllTransactonById(id);
-    }*/
 
 }
