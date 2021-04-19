@@ -2,12 +2,16 @@ package bankingdb.db;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Value;
 import java.util.ArrayList;
 import bankingdb.errorhandle.accountFundsExceededException;
 import java.util.List;
 
 @Service
 public class TranService {
+    @Value("${spring.datasource.limitation}")
+    private double limitation;
+
     @Autowired
     tranRepo repo2;
     @Autowired
@@ -27,8 +31,8 @@ public class TranService {
         //making a new trasaction request of the amount and account id
         Transact t=new Transact(accid,0L,amount,false);
         //changing the balance of customer after transaction
-        if(cust.getBalance()<amount){
-            throw new accountFundsExceededException("the amount: "+amount+" exceeds the funds present in this account");
+        if(cust.getBalance()<amount || limitation<amount){
+            throw new accountFundsExceededException("the amount: "+amount+" exceeds the funds present in this account or limit for transaction exceeded");
         }
         cust.setBalance(cust.getBalance()-amount);
 
