@@ -33,17 +33,17 @@ public class Controller {
         return "Check the Logs to see the output";
     }
     @ResponseStatus(HttpStatus.OK)
-    @GetMapping("/findAll")
-    @ResponseBody  Iterable<Customer> findall(){
+    @GetMapping("/customers")
+    Iterable<Customer> findall(){
         return db.findAll();
     }
 
-    @GetMapping("/findByName/{name}")
+    @GetMapping("/customerByName/{name}")
     List<Customer> findbyname(@PathVariable String name){
         return db.findByName(name);
     }
 
-    @GetMapping("/findById/{id}")
+    @GetMapping("/customerById/{id}")
     Customer findbyid(@PathVariable long id){
         return db.findById(id);
     }

@@ -20,7 +20,7 @@ public class controllersTest extends AbstractMapping {
 
     @Test
     public void findAllTest() throws Exception {
-        String uri = "/findAll";
+        String uri = "/customers";
         MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.get(uri)
                 .accept(MediaType.APPLICATION_JSON_VALUE)).andReturn();
 

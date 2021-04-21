@@ -13,23 +13,22 @@ public class Controller2 {
     @Autowired
     TranService db2;
 
-    @GetMapping("/debit/{accid}")
+    @PostMapping("/debit/{accid}")
     Transact debit(@PathVariable long accid,@RequestBody double amount) throws accountFundsExceededException{
         return db2.debit(accid,amount);
     }
 
-    @GetMapping("/credit/{id}")
+    @PostMapping("/credit/{id}")
     Transact credit(@PathVariable long id, @RequestBody double amount){
         return db2.credit(id,amount);
     }
 
-    @GetMapping("/transfer/{id1}/{id2}")
+    @PostMapping("/transfer/{id1}/{id2}")
     List<Transact> transfer(@PathVariable("id1") long id1, @PathVariable("id2") long id2, @RequestBody double amount) throws accountFundsExceededException{
         return db2.transfer(id1,id2,amount);
     }
 
     @GetMapping("/allTransactions")
-    @ResponseBody
     Iterable<Transact> findalltrans(){
         return db2.findAllTransaction();
     }
