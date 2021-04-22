@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class accountFundsExceededAdvice {
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(accountFundsExceededException.class)
-    public @ResponseBody
-    ErrorInfo accountFundsExceededHandler(accountFundsExceededException ex) {
-        return new ErrorInfo(HttpStatus.BAD_REQUEST,ex.getMessage());
+    public @ResponseBody String accountFundsExceededHandler(accountFundsExceededException ex) {
+        return ex.getMessage();
     }
 }
