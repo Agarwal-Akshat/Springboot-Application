@@ -36,7 +36,7 @@ public class service {
             return "Record Updated";
         }
         else
-            throw new customerNotFoundException("Could not find customer{id:"+id+"} so record not updated");
+            throw new customerNotFoundException("Error: Could not find customer{id:"+id+"} so record not updated");
     }
 
     public String delete(long id) throws customerNotFoundException{
@@ -45,7 +45,7 @@ public class service {
             return "Record Deleted";
         }
         else
-            throw new customerNotFoundException("Could not find customer{id:"+id+"} so record not deleted");
+            throw new customerNotFoundException("Error: Could not find customer{id:"+id+"} so record not deleted");
     }
 
 }

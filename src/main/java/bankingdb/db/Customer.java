@@ -1,5 +1,7 @@
 package bankingdb.db;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import javax.persistence.Column;
@@ -11,10 +13,19 @@ import javax.persistence.Table;
 //using JPA for object relation mapping
 @Table(name="Accounts")
 @Entity
+@ApiModel(description = "Details about the account holding customers")
 public @Data class Customer {
+
+    @ApiModelProperty(notes = "The unique ID by which we identify this customer's account")
     private @Id long id;
+
+    @ApiModelProperty(notes = "The first name for this account holding customer")
     private @Column String firstname;
+
+    @ApiModelProperty(notes = "The second name for this account holding customer")
     private @Column String secondname;
+
+    @ApiModelProperty(notes = "The balance currently present in this account")
     private @Column double balance;
 
     public Customer(){}

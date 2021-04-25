@@ -32,7 +32,7 @@ public class TranService {
         Transact t=new Transact(accid,0L,amount,false);
         //changing the balance of customer after transaction
         if(cust.getBalance()<amount || limitation<amount){
-            throw new accountFundsExceededException("the amount: "+amount+" exceeds the funds present in this account or limit for transaction exceeded");
+            throw new accountFundsExceededException("Error: the amount: "+amount+" exceeds the funds present in this account or limit for transaction exceeded");
         }
         cust.setBalance(cust.getBalance()-amount);
 
