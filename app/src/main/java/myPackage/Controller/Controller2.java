@@ -1,5 +1,6 @@
 package myPackage.Controller;
 
+import io.swagger.annotations.Api;
 import myPackage.db.Transact;
 import myPackage.errorhandle.accountFundsExceededException;
 import io.swagger.annotations.ApiOperation;
@@ -11,6 +12,7 @@ import myPackage.services.TranService;
 
 import java.util.List;
 
+@Api(value = "Endpoints for transactions", description = "Endpoints for transactions")
 @RestController
 public class Controller2 {
     @Autowired

@@ -13,8 +13,6 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication(scanBasePackages = {"myPackage.Controller","myPackage.services","myPackage.db","myPackage.errorhandle"})
-//@ComponentScan(scanbasePackages = {"myPackage.Controller","myPackage.Controller2","simplebanking.repo","simplebanking.service","simplebanking.resources"})
-//@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 @EnableSwagger2
 public class bankingapplication {
 

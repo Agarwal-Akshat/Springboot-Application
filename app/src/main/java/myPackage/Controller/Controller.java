@@ -1,5 +1,6 @@
 package myPackage.Controller;
 
+import io.swagger.annotations.Api;
 import myPackage.db.Customer;
 import myPackage.errorhandle.customerNotFoundException;
 import myPackage.services.Serv;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Api(value = "Endpoints for customer's Account", description = "Endpoints for customer's Account")
 @RestController
 public class Controller {
 

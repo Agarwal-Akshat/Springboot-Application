@@ -6,13 +6,13 @@ import myPackage.errorhandle.customerNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
 import java.util.List;
 
 @Service
 public class Serv {
     @Autowired
     bankRepo repo;
+
 
     public String insert(Customer cust){
         repo.save(cust);

@@ -1,5 +1,7 @@
 package myPackage.db;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -14,9 +16,11 @@ import javax.persistence.Table;
 @Table(name="Accounts")
 @Entity
 @ApiModel(description = "Details about the account holding customers")
+@JsonPropertyOrder({"id","firstname","secondname","balance"})
 public @Data class Customer {
 
     @ApiModelProperty(notes = "The unique ID by which we identify this customer's account")
+    @JsonProperty(value = "Acc_ID")
     private @Id long id;
 
     @ApiModelProperty(notes = "The first name for this account holding customer")
