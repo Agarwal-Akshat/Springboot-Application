@@ -6,8 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="banking" />
+        <module name="app" />
+        <module name="repo" />
+        <module name="resources" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

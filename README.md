@@ -1,6 +1,6 @@
 SpringBoot Application having banking functionalities.
 
-Made 2 entities, 2 repositories, 2 service class and 2 controllers for this application.
+Made 2 entities, 2 repositories, 2 myPackage.services.service class and 2 controllers for this application.
 
 1st entity is for customer class, having id(primary key), firstname, lastname, and balance as attributes. The contoller for this entity can do the following:
 1) add new customers(POST)
@@ -23,9 +23,9 @@ Exception handling added for this transaction controller if amount to be debited
 
 
 Work done:
-14th April: Assignment recieved to make a springboot application with REST service having banking functionalities. Made the entity, repo, service and controller for customers and added exception handling and unit tests to it.
+14th April: Assignment recieved to make a springboot application with REST myPackage.services.service having banking functionalities. Made the entity, repo, myPackage.services.service and controller for customers and added exception handling and unit tests to it.
 
-15th April: Extended the application by making the entity, repo, service and controller for transctions and added exception handling to it.
+15th April: Extended the application by making the entity, repo, myPackage.services.service and controller for transctions and added exception handling to it.
 
 16th April: Feedback on assignment after demonstration and made changes according to it such as adding lombok, making balance amount as double, making controller class as having to call functions, adding logger, and property file value fetching to set a limit on the amount per transaction.
 
