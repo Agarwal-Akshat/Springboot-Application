@@ -2,11 +2,13 @@ package myPackage.Controller;
 
 import io.swagger.annotations.Api;
 import myPackage.db.Customer;
+import myPackage.db.catalogue;
 import myPackage.errorhandle.customerNotFoundException;
 import myPackage.services.Serv;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
+import myPackage.services.cataServ;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +23,9 @@ public class Controller {
 
     @Autowired
     Serv db;
+
+    @Autowired
+    cataServ cserv;
 
     Logger logger = LoggerFactory.getLogger(Controller.class);
 
@@ -100,6 +105,12 @@ public class Controller {
     @DeleteMapping("/delete/{id}")
     String delete(@PathVariable long id) throws customerNotFoundException{
         return db.delete(id);
+    }
+
+
+    @GetMapping("/Catalogue/{id}")
+    catalogue findbycustId(@PathVariable long id){
+        return cserv.findByCustId(id);
     }
 
 
