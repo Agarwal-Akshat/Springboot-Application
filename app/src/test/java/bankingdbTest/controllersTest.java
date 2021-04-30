@@ -1,22 +1,27 @@
 package bankingdbTest;
 
+import myPackage.Controller.Controller;
+import myPackage.bankingapplication;
 import myPackage.db.Customer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
+import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class controllersTest extends AbstractMapping {
+@SpringBootTest(classes=bankingapplication.class)
+@AutoConfigureMockMvc
+public class controllersTest extends AbstractMapping{
 
-    @Override
-    @BeforeEach
-    public void setUp() {
-        super.setUp();
-    }
+    @Autowired
+    MockMvc mvc;
 
     @Test
     public void findAllTest() throws Exception {
@@ -61,7 +66,7 @@ public class controllersTest extends AbstractMapping {
         String uri = "/delete/2";
         MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.delete(uri)).andReturn();
         int status = mvcResult.getResponse().getStatus();
-        assertEquals(400, status);
+        assertEquals(404, status);
         String content = mvcResult.getResponse().getContentAsString();
         assertTrue(content.contains("Could not find customer"));
     }
@@ -76,10 +81,11 @@ public class controllersTest extends AbstractMapping {
                 .content(inputJson)).andReturn();
 
         int status = mvcResult.getResponse().getStatus();
-        assertEquals(400, status);
+        assertEquals(404, status);
         String content = mvcResult.getResponse().getContentAsString();
         assertTrue(content.contains("Could not find customer"));
     }
+
     @Test
     public void updateTest2() throws Exception {
         String uri = "/update/3";

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
 public class accountFundsExceededAdvice {
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
     @ExceptionHandler(accountFundsExceededException.class)
     public @ResponseBody String accountFundsExceededHandler(accountFundsExceededException ex) {
         return ex.getMessage();

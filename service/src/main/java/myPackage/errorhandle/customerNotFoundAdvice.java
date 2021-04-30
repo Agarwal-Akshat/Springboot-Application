@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
 public class customerNotFoundAdvice {
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
     @ExceptionHandler(customerNotFoundException.class)
     public @ResponseBody String customerNotFoundHandler(customerNotFoundException ex) {
         return ex.getMessage();
