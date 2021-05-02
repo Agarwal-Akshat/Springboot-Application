@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,9 +14,7 @@ import javax.persistence.*;
 @Entity
 @ApiModel(description = "Details about the transaction done by account holding customer")
 @JsonPropertyOrder({"tranid","accid","transferbalance","inout"})
-public @Getter
-@Setter
-class Transact {
+public @Data class Transact {
 
 
     @ApiModelProperty(notes = "The unique ID by which we identify this transaction")

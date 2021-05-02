@@ -48,7 +48,7 @@ public class restTest {
     @Test
     public void updateTester2() throws customerNotFoundException{
         Customer e1=new Customer(3,"BB","Cobra",900999);
-        Mockito.when(repoTest.save(e1)).thenThrow(new customerNotFoundException("Error: Could not find customer id:3 so record not updated"));
+        Mockito.when(repoTest.save(e1)).thenThrow(new customerNotFoundException("Error: Could not find customer id:3 so record not updated"){});
         assertTrue(servTest.update(3,e1).contains("Error: Could not find"));
 
     }

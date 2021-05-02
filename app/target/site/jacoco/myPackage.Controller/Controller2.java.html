@@ -24,7 +24,7 @@ import java.util.List;
             response = Transact.class)
     @PostMapping(&quot;/debit/{accid}&quot;)
     Transact debit(@PathVariable long accid, @RequestBody double amount) throws accountFundsExceededException {
-<span class="nc" id="L27">        return db2.debit(accid,amount);</span>
+<span class="fc" id="L27">        return db2.debit(accid,amount);</span>
     }
 
 
@@ -33,7 +33,7 @@ import java.util.List;
             response = Transact.class)
     @PostMapping(&quot;/credit/{id}&quot;)
     Transact credit(@PathVariable long id, @RequestBody double amount){
-<span class="nc" id="L36">        return db2.credit(id,amount);</span>
+<span class="fc" id="L36">        return db2.credit(id,amount);</span>
     }
 
 
@@ -43,7 +43,7 @@ import java.util.List;
             responseContainer = &quot;List&quot;)
     @PostMapping(&quot;/transfer/{id1}/{id2}&quot;)
     List&lt;Transact&gt; transfer(@PathVariable(&quot;id1&quot;) long id1, @PathVariable(&quot;id2&quot;) long id2, @RequestBody double amount) throws accountFundsExceededException{
-<span class="nc" id="L46">        return db2.transfer(id1,id2,amount);</span>
+<span class="fc" id="L46">        return db2.transfer(id1,id2,amount);</span>
     }
 
 
@@ -56,7 +56,7 @@ import java.util.List;
             @ApiResponse(code = 200, message = &quot;Successful retrieval&quot;)})
     @GetMapping(&quot;/allTransactions&quot;)
     Iterable&lt;Transact&gt; findalltrans(){
-<span class="nc" id="L59">        return db2.findAllTransaction();</span>
+<span class="fc" id="L59">        return db2.findAllTransaction();</span>
     }
 
 
@@ -69,7 +69,7 @@ import java.util.List;
             @ApiResponse(code = 200, message = &quot;Successful retrieval&quot;)})
     @GetMapping(&quot;/allTransactionsByAccid/{accid}&quot;)
     List&lt;Transact&gt; transactionById(@PathVariable long accid){
-<span class="nc" id="L72">        return db2.findAllTransactionByAccid(accid);</span>
+<span class="fc" id="L72">        return db2.findAllTransactionByAccid(accid);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
