@@ -5,7 +5,7 @@ resilience4j:
         registerHealthIndicator: true
         slidingWindowSize: 10
         minimumNumberOfCalls: 5
-        permittedNumberOfCallsInHalfOpenState: 3
+        permittedNumberOfCallsInHalfOpenState: 1
         automaticTransitionFromOpenToHalfOpenEnabled: true
         waitDurationInOpenState: 20s
         failureRateThreshold: 50
@@ -15,8 +15,6 @@ resilience4j:
                 - java.util.concurrent.TimeoutException
                 - java.io.IOException
                 - org.springframework.web.client.ResourceAccessException
-                - myPackage.errorhandle.accountFundsExceededException
-                - myPackage.errorhandle.customerNotFoundException
     instances:
       mainService:
         baseConfig: default

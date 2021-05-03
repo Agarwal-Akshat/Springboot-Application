@@ -81,6 +81,7 @@ public class Controller {
     }
 
 
+    @ResponseStatus(HttpStatus.CREATED)
     @ApiOperation(value = "Add a new account/customer",
             notes = "Adds a new customer",
             response = String.class)
@@ -88,6 +89,7 @@ public class Controller {
     String insert(@RequestBody Customer cust){
         return db.insert(cust);
     }
+
 
 
     @ApiOperation(value = "Modifies details of existing customer/account by giving their unique account ID as param",

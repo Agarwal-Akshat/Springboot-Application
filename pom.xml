@@ -126,17 +126,7 @@
     
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <configuration>
-                            <mainClass>simplebanking.app.myPackage.bankingapplication</mainClass>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+
             <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>

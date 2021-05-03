@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: bankingdbTest.restTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 6.67 s - in bankingdbTest.restTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 6.115 s - in bankingdbTest.restTest
