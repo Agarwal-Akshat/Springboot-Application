@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Controller2.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app</a> &gt; <a href="index.source.html" class="el_package">myPackage.Controller</a> &gt; <span class="el_source">Controller2.java</span></div><h1>Controller2.java</h1><pre class="source lang-java linenums">package myPackage.Controller;
+
+import io.swagger.annotations.Api;
+import myPackage.db.Transact;
+import myPackage.errorhandle.accountFundsExceededException;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import myPackage.services.TranService;
+
+import java.util.List;
+
+@Api(value = &quot;Endpoints for transactions&quot;, description = &quot;Endpoints for transactions&quot;)
+@RestController
+<span class="fc" id="L17">public class Controller2 {</span>
+    @Autowired
+    TranService db2;
+
+
+    @ApiOperation(value = &quot;Enables to debit money from the account who's id is given&quot;,
+            notes = &quot;Debit money through body into a particular account&quot;,
+            response = Transact.class)
+    @PostMapping(&quot;/debit/{accid}&quot;)
+    Transact debit(@PathVariable long accid, @RequestBody double amount) throws accountFundsExceededException {
+<span class="fc" id="L27">        return db2.debit(accid,amount);</span>
+    }
+
+
+    @ApiOperation(value = &quot;Enables to credit money into the account who's id is given&quot;,
+            notes = &quot;Credit money through body into a particular account&quot;,
+            response = Transact.class)
+    @PostMapping(&quot;/credit/{id}&quot;)
+    Transact credit(@PathVariable long id, @RequestBody double amount){
+<span class="fc" id="L36">        return db2.credit(id,amount);</span>
+    }
+
+
+    @ApiOperation(value = &quot;Enables to transfer of funds between 2 customers by giving 2 ids as params and amount&quot;,
+            notes = &quot;List of 2 transactions one for debit and other for credit&quot;,
+            response = Transact.class,
+            responseContainer = &quot;List&quot;)
+    @PostMapping(&quot;/transfer/{id1}/{id2}&quot;)
+    List&lt;Transact&gt; transfer(@PathVariable(&quot;id1&quot;) long id1, @PathVariable(&quot;id2&quot;) long id2, @RequestBody double amount) throws accountFundsExceededException{
+<span class="fc" id="L46">        return db2.transfer(id1,id2,amount);</span>
+    }
+
+
+    @ApiOperation(value = &quot;List of all the transactions that has taken place till now&quot;,
+            notes = &quot;List of all the transactions that has taken place till now&quot;,
+            response = Transact.class,
+            responseContainer = &quot;List&quot;)
+    @ApiResponses(value = {
+            @ApiResponse(code = 500, message = &quot;Server error&quot;),
+            @ApiResponse(code = 200, message = &quot;Successful retrieval&quot;)})
+    @GetMapping(&quot;/allTransactions&quot;)
+    Iterable&lt;Transact&gt; findalltrans(){
+<span class="fc" id="L59">        return db2.findAllTransaction();</span>
+    }
+
+
+    @ApiOperation(value = &quot;List of all the transactions completed by the account whos ID is used as param&quot;,
+            notes = &quot;List of all the transactions completed by a specific account&quot;,
+            response = Transact.class,
+            responseContainer = &quot;List&quot;)
+    @ApiResponses(value = {
+            @ApiResponse(code = 500, message = &quot;Server error&quot;),
+            @ApiResponse(code = 200, message = &quot;Successful retrieval&quot;)})
+    @GetMapping(&quot;/allTransactionsByAccid/{accid}&quot;)
+    List&lt;Transact&gt; transactionById(@PathVariable long accid){
+<span class="fc" id="L72">        return db2.findAllTransactionByAccid(accid);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

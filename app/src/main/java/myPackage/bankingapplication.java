@@ -12,7 +12,7 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-@SpringBootApplication(scanBasePackages = {"myPackage.Controller","myPackage.services","myPackage.db","myPackage.errorhandle"})
+@SpringBootApplication(scanBasePackages = {"myPackage.intregrateTest","myPackage.Controller","myPackage.services","myPackage.db","myPackage.errorhandle"})
 @EnableSwagger2
 public class bankingapplication {
 

@@ -8,3 +8,4 @@ Feature: Tranfer money: should be able to transfer money between accounts.
     Examples:
       | id1 | amount0 | id2 | amount1 | amount2 |
       | 1   | 200.0   | 3   | 9800.0  | 300.0   |
+      | 2   | 888.5   | 3   | 111.5   | 1188.5  |
