@@ -1,5 +1,6 @@
-package myPackage;
+package myPackage.Tests;
 
+import myPackage.bankingapplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

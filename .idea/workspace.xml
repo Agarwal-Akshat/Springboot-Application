@@ -3,86 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="a2ce1f83-996e-4434-8f59-9ed9efb62e77" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/bankingdbTest/AbstractMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/AbstractMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/bankingdbTest/CucumberSpringContextConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/CucumberSpringContextConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/bankingdbTest/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/bankingdbTest/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/bankingdbTest/applicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/applicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/bankingdbTest/controllersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/controllersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/bankingdbTest/restTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/restTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/myPackage/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/myPackage/Controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/myPackage/Controller/Controller2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/myPackage/Controller/Controller2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/AbstractMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/Tests/AbstractMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/CucumberSpringContextConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/applicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/Tests/applicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/controllersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/Tests/controllersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/restTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/Tests/restTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/transferHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/resources/features/tranferBalance.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/classes/myPackage/bankingapplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/myPackage/bankingapplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller2.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller3.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage/bankingapplication.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage/bankingapplication.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/2021-05-05T20-03-51_747-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-bankingdbTest.RunCucumberTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-bankingdbTest.applicationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-bankingdbTest.controllersTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-bankingdbTest.restTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/bankingdbTest.RunCucumberTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/bankingdbTest.applicationTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/bankingdbTest.controllersTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/bankingdbTest.restTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/bankingdbTest/AbstractMapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/bankingdbTest/CucumberSpringContextConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/bankingdbTest/RunCucumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/bankingdbTest/StepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/bankingdbTest/applicationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/bankingdbTest/controllersTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/bankingdbTest/restTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/bankingdbTest/restTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/target/classes/myPackage/db/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/classes/myPackage/db/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/target/classes/myPackage/db/Transact.class" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/classes/myPackage/db/Transact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/target/classes/myPackage/db/bankRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/classes/myPackage/db/bankRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/target/classes/myPackage/db/catalogue.class" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/classes/myPackage/db/catalogue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/target/classes/myPackage/db/catalogueRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/classes/myPackage/db/catalogueRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/target/classes/myPackage/db/tranRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/classes/myPackage/db/tranRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/ErrorInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/ErrorInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/accountFundsExceededAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/accountFundsExceededAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/accountFundsExceededException.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/accountFundsExceededException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/customerNotFoundAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/customerNotFoundAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/customerNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/myPackage/errorhandle/customerNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/myPackage/services/Serv.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/myPackage/services/Serv.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/myPackage/services/TranService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/myPackage/services/TranService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/myPackage/services/cataServ.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/myPackage/services/cataServ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/2021-05-06T12-19-07_062.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/features/tranferBalance.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/AbstractMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/CucumberSpringContextConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/RunCucumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/StepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/applicationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/controllersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/restTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/restTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/transferHttpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,44 +49,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/StepDefinitions.java">
+      <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-70">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="restTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/restTest.java">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/Tests/restTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="450">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bankingapplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="RunCucumberTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/RunCucumberTest.java">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/RunCucumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+              <caret line="8" column="109" selection-start-line="8" selection-start-column="109" selection-end-line="8" selection-end-column="109" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,32 +94,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CucumberSpringContextConfiguration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/CucumberSpringContextConfiguration.java">
+      <file leaf-file-name="CucumberSpringContextConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="67" />
+            <state relative-caret-position="175">
+              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/myPackage/services/TranService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="transferHttpClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/transferHttpClient.java">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="189">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,26 +118,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cataServ.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/myPackage/services/cataServ.java">
+      <file leaf-file-name="transferBalance.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/test/resources/features/transferBalance.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllersTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/controllersTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="31">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -233,17 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/repo/src/main/java/db/Customer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/Controller/Controller2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/Controller/Controller.java" />
-        <option value="$PROJECT_DIR$/service/pom.xml" />
-        <option value="$PROJECT_DIR$/repo/pom.xml" />
-        <option value="$PROJECT_DIR$/resources/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/app/src/main/java/bankingapplication.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/services/service.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/services/TranService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/services/Serv.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/application/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/application/bankingapplication.java" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/service/src/main/java/myPackage/services/TranService.java" />
@@ -261,7 +177,6 @@
         <option value="$PROJECT_DIR$/service/src/main/java/myPackage/errorhandle/customerNotFoundException.java" />
         <option value="$PROJECT_DIR$/resources/pom.xml" />
         <option value="$PROJECT_DIR$/resources/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/myPackage/services/cataServ.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/myPackage/Controller/Controller3.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/restTest.java" />
@@ -270,20 +185,32 @@
         <option value="$PROJECT_DIR$/resources/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/app/src/main/java/myPackage/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/controllersTest.java" />
-        <option value="$PROJECT_DIR$/app/src/test/resources/features/tranferBalance.feature" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/MyStepTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/stepTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/CucumberRunnerTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/MyStepDevs.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/RunCucumberTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/CucumberSpringContextConfiguration.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/bankingdbTest/transferHttpClient.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/myPackage/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/myPackage/transferHttpClient.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/myPackage/CucumberSpringContextConfiguration.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/Tests/transferHttpClient.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/Tests/RunCucumberTest.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/Tests/CucumberSpringContextConfiguration.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/Tests/StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/app/src/test/resources/features/tranferBalance.feature" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrate/RunCucumberTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrate/Steps.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrate/CucumberSpringContextConfiguration.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrate/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/Tests/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java" />
+        <option value="$PROJECT_DIR$/app/src/test/resources/features/transferBalance.feature" />
       </list>
     </option>
   </component>
@@ -372,6 +299,26 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="myPackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="intregrateTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="banking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="banking" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="banking" type="b2602c69:ProjectViewProjectNode" />
@@ -470,7 +417,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="org.ju&#9;FILE&#9;jar://C:/Users/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar!/META-INF/services/org.junit.platform.engine.TestEngine" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hellocucumber" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-cucumber" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -500,25 +447,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: tranferBalance">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="All Features in: bankingdbTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: tranferBalance (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="app" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Feature: tranferBalance" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="app" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -534,29 +470,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myPackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="myPackage" />
-      <option name="MAIN_CLASS_NAME" value="myPackage.RunCucumberTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -586,13 +499,59 @@
       <module name="app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myPackage.*" />
+          <option name="PATTERN" value="myPackage.intregrateTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="myPackage" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="myPackage.Tests in app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myPackage.intregrateTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="myPackage.Tests" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="myPackage.intregrateTest in app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myPackage.intregrateTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="myPackage.intregrateTest" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -628,19 +587,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: tranferBalance" />
-      <item itemvalue="JUnit.All in app" />
-      <item itemvalue="Cucumber java.All Features in: bankingdbTest" />
       <item itemvalue="JUnit.myPackage in app" />
-      <item itemvalue="JUnit.RunCucumberTest" />
+      <item itemvalue="Cucumber java.Feature: tranferBalance (1)" />
+      <item itemvalue="JUnit.myPackage.Tests in app" />
+      <item itemvalue="JUnit.myPackage.intregrateTest in app" />
+      <item itemvalue="JUnit.All in app" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.myPackage in app" />
-        <item itemvalue="JUnit.RunCucumberTest" />
+        <item itemvalue="JUnit.myPackage.intregrateTest in app" />
         <item itemvalue="JUnit.All in app" />
-        <item itemvalue="Cucumber java.All Features in: bankingdbTest" />
-        <item itemvalue="Cucumber java.Feature: tranferBalance" />
+        <item itemvalue="JUnit.myPackage.Tests in app" />
+        <item itemvalue="JUnit.myPackage in app" />
+        <item itemvalue="Cucumber java.Feature: tranferBalance (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -658,35 +617,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="bankingdbTest_in_app - 2021.05.05 at 20h 33m 24s.xml">
-      <configuration name="bankingdbTest in app" configurationId="JUnit" />
+    <history-entry file="myPackage_Tests_in_app - 2021.05.06 at 14h 10m 57s.xml">
+      <configuration name="myPackage.Tests in app" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTest - 2021.05.05 at 20h 54m 28s.xml">
-      <configuration name="RunCucumberTest" configurationId="JUnit" />
+    <history-entry file="myPackage_Tests_in_app - 2021.05.06 at 14h 11m 56s.xml">
+      <configuration name="myPackage.Tests in app" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="bankingdbTest_in_app - 2021.05.06 at 11h 18m 24s.xml">
-      <configuration name="bankingdbTest in app" configurationId="JUnit" />
+    <history-entry file="myPackage_Tests_in_app - 2021.05.06 at 14h 17m 15s.xml">
+      <configuration name="myPackage.Tests in app" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="bankingdbTest_in_app - 2021.05.06 at 11h 19m 29s.xml">
-      <configuration name="bankingdbTest in app" configurationId="JUnit" />
+    <history-entry file="myPackage_intregrate_in_app - 2021.05.06 at 14h 19m 29s.xml">
+      <configuration name="myPackage.intregrate in app" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myPackage_in_app - 2021.05.06 at 11h 24m 56s.xml">
-      <configuration name="myPackage in app" configurationId="JUnit" />
+    <history-entry file="myPackage_intregrate_in_app - 2021.05.06 at 14h 20m 11s.xml">
+      <configuration name="myPackage.intregrate in app" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myPackage_in_app - 2021.05.06 at 11h 28m 00s.xml">
-      <configuration name="myPackage in app" configurationId="JUnit" />
+    <history-entry file="All_in_app - 2021.05.06 at 15h 10m 54s.xml">
+      <configuration name="All in app" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myPackage_in_app - 2021.05.06 at 11h 33m 10s.xml">
-      <configuration name="myPackage in app" configurationId="JUnit" />
+    <history-entry file="myPackage_intregrateTest_in_app - 2021.05.06 at 15h 16m 33s.xml">
+      <configuration name="myPackage.intregrateTest in app" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myPackage_in_app - 2021.05.06 at 11h 38m 59s.xml">
-      <configuration name="myPackage in app" configurationId="JUnit" />
+    <history-entry file="myPackage_intregrateTest_in_app - 2021.05.06 at 15h 35m 34s.xml">
+      <configuration name="myPackage.intregrateTest in app" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myPackage_in_app - 2021.05.06 at 11h 46m 36s.xml">
-      <configuration name="myPackage in app" configurationId="JUnit" />
+    <history-entry file="myPackage_intregrateTest_in_app - 2021.05.06 at 15h 36m 43s.xml">
+      <configuration name="myPackage.intregrateTest in app" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="myPackage_in_app - 2021.05.06 at 11h 50m 10s.xml">
-      <configuration name="myPackage in app" configurationId="JUnit" />
+    <history-entry file="myPackage_intregrateTest_in_app - 2021.05.06 at 15h 37m 35s.xml">
+      <configuration name="myPackage.intregrateTest in app" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -704,17 +663,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32983682" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32517484" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5005208" side_tool="true" weight="0.32922733" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.33566433" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.33566433" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49947917" weight="0.8100233" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26079914" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32867134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -728,30 +689,12 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32867134" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32517484" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/myPackage/errorhandle/ErrorInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/src/main/java/db.java" />
-    <entry file="file://$PROJECT_DIR$/service/service.iml" />
-    <entry file="file://$PROJECT_DIR$/repo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/services/service.java" />
     <entry file="file://$PROJECT_DIR$/core/pom.xml" />
     <entry file="file://$PROJECT_DIR$/resources/src/main/resources/schema.sql" />
@@ -853,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/src/main/java/myPackage/db/catalogue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -919,50 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/resources/features/tranferBalance.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/AbstractMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/applicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/controllersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/myPackage/services/Serv.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -987,23 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/restTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/6.8.1/cucumber-java-6.8.1.jar!/io/cucumber/java/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1018,40 +893,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/transferHttpClient.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="100">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrate/Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/resources/features/tranferBalance.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/Tests/restTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/RunCucumberTest.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/Tests/controllersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/Tests/applicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/Tests/AbstractMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/Tests/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/MyStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="104" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/RunCucumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+          <caret line="8" column="109" selection-start-line="8" selection-start-column="109" selection-end-line="8" selection-end-column="109" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/StepDefinitions.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/resources/features/transferBalance.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/CucumberSpringContextConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/StepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="67" />
+        <state relative-caret-position="-70">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

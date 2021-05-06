@@ -1,6 +1,7 @@
-package myPackage;
+package myPackage.Tests;
 
 
+import myPackage.bankingapplication;
 import myPackage.db.Customer;
 import myPackage.db.bankRepo;
 import myPackage.errorhandle.customerNotFoundException;

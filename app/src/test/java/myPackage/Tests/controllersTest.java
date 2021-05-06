@@ -1,5 +1,6 @@
-package myPackage;
+package myPackage.Tests;
 
+import myPackage.bankingapplication;
 import myPackage.db.Customer;
 import myPackage.db.Transact;
 import myPackage.db.catalogue;
@@ -16,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@SpringBootTest(classes=bankingapplication.class)
+@SpringBootTest(classes= bankingapplication.class)
 @AutoConfigureMockMvc
 public class controllersTest extends AbstractMapping{
 

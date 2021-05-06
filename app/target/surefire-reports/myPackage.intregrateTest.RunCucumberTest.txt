@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: myPackage.intregrateTest.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 25.636 s <<< FAILURE! - in myPackage.intregrateTest.RunCucumberTest
+Tranfer money between two customers by their account ID.  Time elapsed: 25.557 s  <<< ERROR!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in myPackage.intregrateTest.StepDefinitions.theUserChoosesTransferFeature() and myPackage.intregrateTest.StepDefinitions.theUserChoosesTransferFeature()
+
+myPackage.intregrateTest.RunCucumberTest  Time elapsed: 25.573 s  <<< ERROR!
+org.junit.runner.notification.StoppedByUserException
+
