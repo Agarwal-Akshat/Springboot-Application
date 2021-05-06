@@ -1,7 +1,9 @@
-bankingdbTest\restTest.class
-bankingdbTest\StepDefinitions.class
-bankingdbTest\RunCucumberTest.class
-bankingdbTest\applicationTest.class
-bankingdbTest\AbstractMapping.class
-bankingdbTest\restTest$1.class
-bankingdbTest\controllersTest.class
+myPackage\CucumberSpringContextConfiguration.class
+myPackage\restTest$1.class
+myPackage\transferHttpClient.class
+myPackage\AbstractMapping.class
+myPackage\RunCucumberTest.class
+myPackage\restTest.class
+myPackage\controllersTest.class
+myPackage\applicationTest.class
+myPackage\StepDefinitions.class

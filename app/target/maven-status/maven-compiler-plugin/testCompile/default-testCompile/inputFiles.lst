@@ -1,6 +1,8 @@
-C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\bankingdbTest\StepDefinitions.java
-C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\bankingdbTest\RunCucumberTest.java
-C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\bankingdbTest\applicationTest.java
-C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\bankingdbTest\restTest.java
-C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\bankingdbTest\AbstractMapping.java
-C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\bankingdbTest\controllersTest.java
+C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\myPackage\restTest.java
+C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\myPackage\transferHttpClient.java
+C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\myPackage\RunCucumberTest.java
+C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\myPackage\AbstractMapping.java
+C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\myPackage\controllersTest.java
+C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\myPackage\StepDefinitions.java
+C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\myPackage\applicationTest.java
+C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java\myPackage\CucumberSpringContextConfiguration.java
