@@ -81,13 +81,15 @@ import java.util.List;
     }
 
 
+    @ResponseStatus(HttpStatus.CREATED)
     @ApiOperation(value = &quot;Add a new account/customer&quot;,
             notes = &quot;Adds a new customer&quot;,
             response = String.class)
     @PostMapping(&quot;/insert&quot;)
     String insert(@RequestBody Customer cust){
-<span class="fc" id="L89">        return db.insert(cust);</span>
+<span class="fc" id="L90">        return db.insert(cust);</span>
     }
+
 
 
     @ApiOperation(value = &quot;Modifies details of existing customer/account by giving their unique account ID as param&quot;,
@@ -95,7 +97,7 @@ import java.util.List;
             response = String.class)
     @PutMapping(&quot;/update/{id}&quot;)
     String update(@PathVariable long id, @RequestBody Customer cust) throws customerNotFoundException{
-<span class="fc" id="L98">        return db.update(id,cust);</span>
+<span class="fc" id="L100">        return db.update(id,cust);</span>
     }
 
 
@@ -104,13 +106,13 @@ import java.util.List;
             response = String.class)
     @DeleteMapping(&quot;/delete/{id}&quot;)
     String delete(@PathVariable long id) throws customerNotFoundException{
-<span class="fc" id="L107">        return db.delete(id);</span>
+<span class="fc" id="L109">        return db.delete(id);</span>
     }
 
 
     @GetMapping(&quot;/Catalogue/{id}&quot;)
     catalogue findbycustId(@PathVariable long id){
-<span class="fc" id="L113">        return cserv.findByCustId(id);</span>
+<span class="fc" id="L115">        return cserv.findByCustId(id);</span>
     }
 
 
