@@ -3,107 +3,76 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-06T13:16:13.571Z",
-        "line": 10,
-        "name": "Tranfer money between two customers by their account ID.",
+        "start_timestamp": "2021-05-07T06:07:16.762Z",
+        "line": 8,
+        "name": "Check balance by account id",
         "description": "",
-        "id": "tranfer-money:-should-be-able-to-transfer-money-between-accounts.;tranfer-money-between-two-customers-by-their-account-id.;;2",
+        "id": "check-balance:-customer-should-be-able-to-check-their-balance.;check-balance-by-account-id;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1328000000,
+              "duration": 610000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "account 1 who transfers 200.0 to account 3",
+            "line": 4,
+            "name": "account 1 for whom we have to check balance",
             "match": {
               "arguments": [
                 {
                   "val": "1",
                   "offset": 8
-                },
-                {
-                  "val": "200.0",
-                  "offset": 24
-                },
-                {
-                  "val": "3",
-                  "offset": 41
                 }
               ],
-              "location": "myPackage.basic.StepDefinitions.accountWhoTransfersToAccount(int,double,int)"
+              "location": "myPackage.basic.StepDefinitions.account_for_whom_we_have_to_check_balance(java.lang.Integer)"
             },
             "keyword": "Given "
           },
           {
             "result": {
+              "duration": 16000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user chooses transfer feature",
-            "match": {
-              "location": "myPackage.basic.StepDefinitions.userChoosesTransferFeature()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 15000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "new balance for accounts should be 9800.0 and 300.0",
+            "line": 5,
+            "name": "Display the account 10000.0 of the customer",
             "match": {
               "arguments": [
                 {
-                  "val": "9800.0",
-                  "offset": 35
-                },
-                {
-                  "val": "300.0",
-                  "offset": 46
+                  "val": "10000.0",
+                  "offset": 20
                 }
               ],
-              "location": "myPackage.basic.StepDefinitions.newBalanceForAccountsShouldBeAnd(double,double)"
+              "location": "myPackage.basic.StepDefinitions.display_the_account_of_the_customer(java.lang.Double)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2021-05-06T13:16:15.149Z",
-        "line": 11,
-        "name": "Tranfer money between two customers by their account ID.",
+        "start_timestamp": "2021-05-07T06:07:17.606Z",
+        "line": 9,
+        "name": "Check balance by account id",
         "description": "",
-        "id": "tranfer-money:-should-be-able-to-transfer-money-between-accounts.;tranfer-money-between-two-customers-by-their-account-id.;;3",
+        "id": "check-balance:-customer-should-be-able-to-check-their-balance.;check-balance-by-account-id;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 78000000,
+              "duration": 15000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "account 2 who transfers 888.5 to account 3",
+            "line": 4,
+            "name": "account 2 for whom we have to check balance",
             "match": {
               "arguments": [
                 {
                   "val": "2",
                   "offset": 8
-                },
-                {
-                  "val": "888.5",
-                  "offset": 24
-                },
-                {
-                  "val": "3",
-                  "offset": 41
                 }
               ],
-              "location": "myPackage.basic.StepDefinitions.accountWhoTransfersToAccount(int,double,int)"
+              "location": "myPackage.basic.StepDefinitions.account_for_whom_we_have_to_check_balance(java.lang.Integer)"
             },
             "keyword": "Given "
           },
@@ -111,42 +80,27 @@
             "result": {
               "status": "passed"
             },
-            "line": 6,
-            "name": "user chooses transfer feature",
-            "match": {
-              "location": "myPackage.basic.StepDefinitions.userChoosesTransferFeature()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "new balance for accounts should be 111.5 and 1188.5",
+            "line": 5,
+            "name": "Display the account 1000.0 of the customer",
             "match": {
               "arguments": [
                 {
-                  "val": "111.5",
-                  "offset": 35
-                },
-                {
-                  "val": "1188.5",
-                  "offset": 45
+                  "val": "1000.0",
+                  "offset": 20
                 }
               ],
-              "location": "myPackage.basic.StepDefinitions.newBalanceForAccountsShouldBeAnd(double,double)"
+              "location": "myPackage.basic.StepDefinitions.display_the_account_of_the_customer(java.lang.Double)"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Tranfer money: should be able to transfer money between accounts.",
-    "description": "  Should be able to check new balance after the transfer is completed.",
-    "id": "tranfer-money:-should-be-able-to-transfer-money-between-accounts.",
+    "name": "Check Balance: Customer should be able to check their balance.",
+    "description": "",
+    "id": "check-balance:-customer-should-be-able-to-check-their-balance.",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/transferBalance.feature",
+    "uri": "file:src/test/resources/features/checkBalance/checkBalance.feature",
     "tags": []
   }
 ]

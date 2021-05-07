@@ -1,9 +1,11 @@
-myPackage\Tests\controllersTest.class
 myPackage\basic\RunIntegrationTest.class
 myPackage\Tests\applicationTest.class
 myPackage\Tests\restTest$1.class
-myPackage\intregrateTest\transferHttpClient.class
+myPackage\basic\RunIntegrationTest2.class
+myPackage\integrationTest\CucumberSpringContextConfiguration.class
 myPackage\basic\StepDefinitions.class
-myPackage\Tests\AbstractMapping.class
-myPackage\intregrateTest\CucumberSpringContextConfiguration.class
 myPackage\Tests\restTest.class
+myPackage\integrationTest\transferHttpClient.class
+myPackage\Tests\controllersTest.class
+myPackage\Tests\AbstractMapping.class
+myPackage\basic\StepDefinitions2.class

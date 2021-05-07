@@ -1,31 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a2ce1f83-996e-4434-8f59-9ed9efb62e77" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/RunIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/RunIntegrationTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/RunCucumberTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/resources/features/transferBalance.feature" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/resources/features/transferBalance.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/RunIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/StepDefinitions2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/integrationTest/CucumberSpringContextConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/integrationTest/transferHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/resources/features/transferBalance.feature" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/resources/features/transferBalance/transferBalance.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/classes/myPackage/bankingapplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/myPackage/bankingapplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/features/transferBalance.feature" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/test-classes/features/transferBalance.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/CucumberSpringContextConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/CucumberSpringContextConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/RunCucumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/StepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/transferHttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/transferHttpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/cucumber-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller2.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller2.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller3.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller3.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage/bankingapplication.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/myPackage/bankingapplication.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/2021-05-06T18-45-35_022.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.applicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.applicationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.controllersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.controllersTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.restTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.restTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.basic.RunIntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.basic.RunIntegrationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.applicationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.applicationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.controllersTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.controllersTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.restTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.restTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.basic.RunIntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.basic.RunIntegrationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/features/transferBalance.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/basic/RunIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/test-classes/myPackage/basic/RunIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/basic/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/test-classes/myPackage/basic/StepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/CucumberSpringContextConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/transferHttpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/target/repo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/repo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/target/resources-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/resources/target/resources-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/repo/target/" />
-    <ignored path="$PROJECT_DIR$/service/target/" />
-    <ignored path="$PROJECT_DIR$/app/target/" />
-    <ignored path="$PROJECT_DIR$/resources/target/" />
-    <ignored path="$PROJECT_DIR$/core/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,64 +62,6 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/banking$All_in_app.ic" NAME="All in app Coverage Results" MODIFIED="1619457169272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/banking$All_in_app__1_.ic" NAME="All in app (1) Coverage Results" MODIFIED="1619457231966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/basic/StepDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="96" selection-start-line="23" selection-start-column="96" selection-end-line="23" selection-end-column="96" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunIntegrationTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/basic/RunIntegrationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transferBalance.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/resources/features/transferBalance.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transferHttpClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CucumberSpringContextConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -163,27 +130,21 @@
         <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/RunIntegrationTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java" />
-        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/myPackage/basic/RunIntegrationTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java" />
         <option value="$PROJECT_DIR$/resources/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/app/src/test/java/myPackage/basic/StepDefinitions.java" />
         <option value="$PROJECT_DIR$/app/src/test/resources/features/transferBalance.feature" />
+        <option value="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="948" />
     <option name="width" value="981" />
     <option name="height" value="1044" />
   </component>
+  <component name="ProjectId" id="1sANAMehicx5OLOrgLOuWG7NRIK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -383,41 +344,39 @@
       <pane id="AndroidView" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="org.ju&#9;FILE&#9;jar://C:/Users/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar!/META-INF/services/org.junit.platform.engine.TestEngine" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-cucumber" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\CODES\java programs\banking\app\src\test\resources\features\checkBalance" />
+      <recent name="C:\Users\user\Documents\CODES\java programs\banking\app\src\test\resources\features\transferBalance" />
       <recent name="C:\Users\user\Documents\CODES\java programs\banking\resources\src\main\resources" />
       <recent name="C:\Users\user\Documents\CODES\java programs\banking\repo\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Documents\CODES\java programs\banking\app\src\test\java" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.myPackage.basic in app">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="bankingapplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="myPackage.bankingapplication" />
@@ -429,22 +388,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="applicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
@@ -454,20 +407,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="myPackage.Tests" />
       <option name="MAIN_CLASS_NAME" value="myPackage.Tests.applicationTest" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="myPackage.Tests in app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
@@ -477,20 +423,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="myPackage.Tests" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="myPackage.basic in app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
@@ -500,22 +438,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="myPackage.basic" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="myPackage.intregrateTest in app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="myPackage.integrationTest in app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
         <pattern>
@@ -523,49 +453,28 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="myPackage.intregrateTest" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="PACKAGE_NAME" value="myPackage.integrationTest" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.myPackage.intregrateTest in app" />
+      <item itemvalue="Application.bankingapplication" />
       <item itemvalue="JUnit.myPackage.basic in app" />
       <item itemvalue="JUnit.applicationTest" />
-      <item itemvalue="Application.bankingapplication" />
       <item itemvalue="JUnit.myPackage.Tests in app" />
+      <item itemvalue="JUnit.myPackage.integrationTest in app" />
     </list>
     <recent_temporary>
       <list>
@@ -573,10 +482,11 @@
         <item itemvalue="JUnit.myPackage.Tests in app" />
         <item itemvalue="Application.bankingapplication" />
         <item itemvalue="JUnit.applicationTest" />
-        <item itemvalue="JUnit.myPackage.intregrateTest in app" />
+        <item itemvalue="JUnit.myPackage.integrationTest in app" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -644,7 +554,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.9102564" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" sideWeight="0.49947917" visible="true" weight="0.8100233" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49947917" weight="0.8100233" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26079914" />
@@ -664,8 +574,17 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/core/pom.xml" />
@@ -701,7 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_291/src.zip!/java/util/ArrayList.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../Program Files/Java/jdk1.8.0_291/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="1258" selection-start-line="1258" selection-end-line="1258" />
@@ -830,7 +749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_291/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
+    <entry file="jar://$PROJECT_DIR$/../../../../../../Program Files/Java/jdk1.8.0_291/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
           <caret line="606" selection-start-line="606" selection-end-line="606" />
@@ -970,6 +889,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/basic/RunIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/basic/StepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -980,27 +916,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/myPackage/basic/RunIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="639">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
