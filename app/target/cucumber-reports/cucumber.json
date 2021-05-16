@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-07T06:07:16.762Z",
+        "start_timestamp": "2021-05-16T10:36:19.217Z",
         "line": 8,
         "name": "Check balance by account id",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 610000000,
+              "duration": 1449000000,
               "status": "passed"
             },
             "line": 4,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 16000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 5,
@@ -50,7 +50,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-07T06:07:17.606Z",
+        "start_timestamp": "2021-05-16T10:36:21.209Z",
         "line": 9,
         "name": "Check balance by account id",
         "description": "",
@@ -60,7 +60,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15000000,
+              "duration": 39000000,
               "status": "passed"
             },
             "line": 4,

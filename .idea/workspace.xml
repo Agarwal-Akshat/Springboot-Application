@@ -5,35 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2ce1f83-996e-4434-8f59-9ed9efb62e77" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/RunIntegrationTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/myPackage/bankingapplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/RunIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/basic/StepDefinitions2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/CucumberSpringContextConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/integrationTest/CucumberSpringContextConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/myPackage/intregrateTest/transferHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/myPackage/integrationTest/transferHttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/resources/features/transferBalance.feature" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/resources/features/transferBalance/transferBalance.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/myPackage/bankingapplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/myPackage/bankingapplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/cucumber-reports/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller2.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller2.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller3.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/myPackage.Controller/Controller3.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/myPackage/bankingapplication.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/myPackage/bankingapplication.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/2021-05-06T18-45-35_022.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/2021-05-07T11-36-42_045.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.applicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.applicationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.controllersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.controllersTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.restTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.restTest.xml" afterDir="false" />
@@ -42,11 +21,6 @@
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.controllersTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.controllersTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.restTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.restTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.basic.RunIntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.basic.RunIntegrationTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/features/transferBalance.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/basic/RunIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/test-classes/myPackage/basic/RunIntegrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/basic/StepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/test-classes/myPackage/basic/StepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/CucumberSpringContextConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/test-classes/myPackage/intregrateTest/transferHttpClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/repo/target/repo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/repo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/target/resources-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/resources/target/resources-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -351,7 +325,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="org.ju&#9;FILE&#9;jar://C:/Users/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar!/META-INF/services/org.junit.platform.engine.TestEngine" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo_project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -371,7 +345,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.myPackage.basic in app">
+  <component name="RunManager" selected="Application.bankingapplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -478,9 +452,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bankingapplication" />
         <item itemvalue="JUnit.myPackage.basic in app" />
         <item itemvalue="JUnit.myPackage.Tests in app" />
-        <item itemvalue="Application.bankingapplication" />
         <item itemvalue="JUnit.applicationTest" />
         <item itemvalue="JUnit.myPackage.integrationTest in app" />
       </list>
