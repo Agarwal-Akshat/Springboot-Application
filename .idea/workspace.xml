@@ -8,11 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/app-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/cucumber-reports/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/2021-05-16T16-05-16_709.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/2021-05-16T16-30-00_464.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.applicationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.applicationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.controllersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.controllersTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.restTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/TEST-myPackage.Tests.restTest.xml" afterDir="false" />
@@ -22,9 +23,13 @@
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.restTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.Tests.restTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.basic.RunIntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/surefire-reports/myPackage.basic.RunIntegrationTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/target/classes/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/classes/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/repo/target/repo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/repo/target/repo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/target/classes/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/target/classes/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/target/resources-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/resources/target/resources-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/git.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

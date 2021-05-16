@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: myPackage.Tests.restTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 5.557 s - in myPackage.Tests.restTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 4.935 s - in myPackage.Tests.restTest
