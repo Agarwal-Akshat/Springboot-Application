@@ -1,6 +1,6 @@
-myPackage\db\bankRepo.class
 myPackage\db\catalogueRepo.class
 myPackage\db\tranRepo.class
+myPackage\db\bankRepo.class
 myPackage\db\catalogue.class
 myPackage\db\Transact.class
 myPackage\db\Customer.class

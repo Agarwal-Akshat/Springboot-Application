@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: myPackage.basic.RunIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.691 s - in myPackage.basic.RunIntegrationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.724 s - in myPackage.basic.RunIntegrationTest
