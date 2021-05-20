@@ -1,5 +1,6 @@
 package myPackage.services;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
 import myPackage.db.catalogue;
 import myPackage.db.catalogueRepo;
 import org.slf4j.Logger;
@@ -30,12 +31,17 @@ public class cataServ {
         return new RestTemplate();
     }
 
-    @CircuitBreaker(name = MAIN_SERVICE)
+    @CircuitBreaker(name = MAIN_SERVICE, fallbackMethod = "fallbackCircuit")
+    @RateLimiter(name = MAIN_SERVICE)
     public ResponseEntity<String> circuitTest(){
         LOGGER.info("I'm here in main service to test circuit break");
         String response = restTemplate.getForObject("http://localhost:8082/home", String.class);
         return new ResponseEntity<String>(response, HttpStatus.OK);
 
+    }
+    public ResponseEntity<String> fallbackCircuit(Throwable t){
+        LOGGER.error("Inside fallback because: "+t.toString());
+        return new ResponseEntity<String>("fallback method",HttpStatus.TOO_MANY_REQUESTS);
     }
 
 

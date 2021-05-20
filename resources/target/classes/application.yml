@@ -18,3 +18,13 @@ resilience4j:
     instances:
       mainService:
         baseConfig: default
+
+  ratelimiter:
+    configs:
+      default:
+        timeoutDuration: 2000ms
+        limitRefreshPeriod: 20000
+        limitForPeriod: 5
+    instances:
+      mainService:
+        baseConfig: default
